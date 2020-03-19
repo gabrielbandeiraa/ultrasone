@@ -16,7 +16,7 @@ body {
 				  background-size: cover;
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
-	color: green;
+	color: black;
 }
 
 /* Barra de navegação
@@ -119,19 +119,19 @@ nav.navbar-transparente {
 /* Rodapé
 -----------------------------*/
 footer {
-	background: #000;
+	background: #ffffff87;
 	padding: 50px 0px 20px 0px;
 	position: relative;
 }
 
 footer h4 {
-	color: #919496;
+	color: black;
 	font-size: 0.8em;
 	text-transform: uppercase;
 }
 
 footer .navbar-nav a {
-	color: white;
+	color: #4F4F4F;
 	font-size: 0.8em;
 }
 
