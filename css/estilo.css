@@ -8,6 +8,7 @@
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
+
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 				url(../imagens/ruido.png);
 				  background-size: cover;
 	background-attachment: fixed;
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: America,sans-serif;
 	color: black;
 }
 
@@ -23,7 +24,7 @@ body {
 -----------------------------*/
 nav.navbar-transparente {
 	padding: 15px 0px;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgb(191, 191, 191);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -48,14 +49,24 @@ nav.navbar-transparente {
 /* Capa
 -----------------------------*/
 .capa {
-	text-align: left;
+	text-align: center;
 	color: green;
+	border: rgb(255, 199, 64) solid;
 
 }
 
+#contatos {
+	background-color: #ffffff94;
+	box-shadow: -3px 3px 7px 0px black;
+	text-align: center;
+}
+
+#marcar {
+	background-color: #312e2e;
+}
 
 
-.btn-custom {
+/* .btn-custom {
 	color: black;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
@@ -65,13 +76,6 @@ nav.navbar-transparente {
     padding: 10px 20px;
 }
 
-.btn-roxo {
-	background: #7c25f8;
-}
-
-.btn-roxo:hover {
-	background: #6207e3;
-	color: white;
 }
 
 .btn-branco {
@@ -81,7 +85,7 @@ nav.navbar-transparente {
 .btn-branco:hover {
 	background-color: white;
 	color: black;
-}
+} ---*/
 
 /* Estrutura conteúdos
 -----------------------------*/
@@ -92,7 +96,7 @@ nav.navbar-transparente {
 
 
 #servicos {
-	background: white;
+	background: #ffffff87;
 }
 
 #recursos {
@@ -100,7 +104,7 @@ nav.navbar-transparente {
 }
 
 #servicos h2, h3 {
-	color: #7c25f8;
+	color: #ff3e38;
 }
 
 #recursos h2 {
@@ -154,7 +158,7 @@ footer ul li {
 h1 {
 	font-weight: 900;
 	letter-spacing: -0.05em;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	color: black;
 
 }
@@ -175,9 +179,13 @@ h3 {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-	.btn-custom {
-		margin: 10px 15px;
-		font-size: 1em;
+	
+	h1 { 
+		font-size: 25px;
+	}
+
+	h3 {
+		font-size: 20px;
 	}
 }
 
@@ -188,6 +196,9 @@ h3 {
 	}
 	.btn-custom {
 		margin: 10px 15px;
+	}
+	h3 {
+		font-size: 25px;
 	}
 }
 
